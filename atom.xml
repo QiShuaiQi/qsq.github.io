@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>个人博客</title>
+  
+  <subtitle>有朋自远方来不亦说乎</subtitle>
+  <link href="https://study66.gitee.io/atom.xml" rel="self"/>
+  
+  <link href="https://study66.gitee.io/"/>
+  <updated>2021-08-27T08:14:28.359Z</updated>
+  <id>https://study66.gitee.io/</id>
+  
+  <author>
+    <name>祁帅旗</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://study66.gitee.io/2021/08/27/test/"/>
+    <id>https://study66.gitee.io/2021/08/27/test/</id>
+    <published>2021-08-27T08:14:28.357Z</published>
+    <updated>2021-08-27T08:14:28.359Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: test<br>date: 2021-08-27 16:14:28<br>tags: test<br>description: tes<br>categories: 技术</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: test&lt;br&gt;date: 2021-08-27 16:14:28&lt;br&gt;tags: test&lt;br&gt;description: tes&lt;br&gt;categories: 技术&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
