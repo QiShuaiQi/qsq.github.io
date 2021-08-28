@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>test</title>
-      <link href="/2021/08/27/test/"/>
-      <url>/2021/08/27/test/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
+<search>
+  <entry>
+    <title>test</title>
+    <url>/2021/08/27/test/</url>
+    <content><![CDATA[]]></content>
       <categories>
-          
-          <category> 技术 </category>
-          
+        <category>技术</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
 </search>
