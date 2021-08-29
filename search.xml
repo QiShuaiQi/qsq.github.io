@@ -36,7 +36,24 @@
   <entry>
     <title>qwas</title>
     <url>/2021/08/29/wqeqw/</url>
-    <content><![CDATA[<h1 id="你好"><a href="#你好" class="headerlink" title="你好"></a>你好</h1>]]></content>
+    <content><![CDATA[<h1 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h1><h2 id="hello-1"><a href="#hello-1" class="headerlink" title="hello"></a>hello</h2><h3 id="hello-2"><a href="#hello-2" class="headerlink" title="hello"></a>hello</h3><h4 id="hello-3"><a href="#hello-3" class="headerlink" title="hello"></a>hello</h4><h6 id="hello-4"><a href="#hello-4" class="headerlink" title="hello"></a>hello</h6><h6 id="hello-5"><a href="#hello-5" class="headerlink" title="hello"></a>hello</h6><h1 id="是吗？"><a href="#是吗？" class="headerlink" title="是吗？"></a>是吗？</h1><h1 id="是啊。"><a href="#是啊。" class="headerlink" title="是啊。"></a>是啊。</h1><p><em>斜体文本</em></p>
+<p><em>斜体文本</em></p>
+<p><strong>粗体文本</strong></p>
+<p><em>粗体文本</em></p>
+<p><em><strong>粗斜体文本</strong></em></p>
+<p><em><strong>粗斜体文本</strong></em></p>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<p><del>添加删除线</del></p>
+<p><u> 下划线</u></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">创建脚注格式类似这样 [^RUNOOB]。</span><br><span class="line">[^ RUNOOB]:是</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
