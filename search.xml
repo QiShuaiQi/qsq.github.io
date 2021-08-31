@@ -1,58 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>mysql_概述</title>
-    <url>/2021/08/30/mysql_%E6%A6%82%E8%BF%B0/</url>
-    <content><![CDATA[<h1 id="mysql-概述"><a href="#mysql-概述" class="headerlink" title="mysql_概述"></a>mysql_概述</h1><h4 id="一、数据库的好处"><a href="#一、数据库的好处" class="headerlink" title="一、数据库的好处"></a>一、数据库的好处</h4><p>1.保存数据 的容器：<br>2.数组<br>3.集合<br>4文件<br>5.实现数据持久化使用完整的管理系统统一管理，易于查询</p>
-<h4 id="二、数据库的概念"><a href="#二、数据库的概念" class="headerlink" title="二、数据库的概念"></a>二、数据库的概念</h4><p>1.DB:数据库（database）：存储数据的“仓库”。它保存了一系列有组织的数据。<br>2.DBMS:数据库管理系统（Database Management System）。数据库是通过DBMS创建和操作的容器<br>3.SQL:结构化查询语言（Structure Query Language）：专门用来与数据库通信的语言。</p>
-<h4 id="三、数据库管理系统"><a href="#三、数据库管理系统" class="headerlink" title="三、数据库管理系统"></a>三、数据库管理系统</h4><p>常见的数据库管理系统：MySQL、Oracle、DB2、SqlServer等</p>
-<h4 id="四、-SQL的优点："><a href="#四、-SQL的优点：" class="headerlink" title="四、  SQL的优点："></a>四、  SQL的优点：</h4><p> 1 、不是某个特定数据库供应商专有的语言，几乎所有DBMS都支持SQL<br> 2 、简单易学<br> 3 、虽然简单，但实际上是一种强有力的语言，灵活使 用其语言元素，可以进行非常复杂和高级的数据库操作。</p>
-<h4 id="五、SQL语言概述"><a href="#五、SQL语言概述" class="headerlink" title="五、SQL语言概述"></a>五、SQL语言概述</h4><p> 1 、将数据放到表中，表再放到库中<br> 2 、一个数据库中可以有多个表，每个表都有一个的名字，用来 标识自己。表名具有唯一性。<br> 3 、表具有一些特性，这些特性定义了数据在表中如何存储，类 似java中 “类”的设计。<br> 4 、表由列组成，我们也称为字段。所有表都是由一个或多个列组成的，每一列类似java 中的”属   性”<br> 5 、表中的数据是按行存储的，每一行类似于java中的“对象”。</p>
-<h4 id="六、数据库的特点"><a href="#六、数据库的特点" class="headerlink" title="六、数据库的特点"></a>六、数据库的特点</h4><p>1 、DML（Data Manipulation Language):数据操纵语句，用于添加、删除、修改、查询数据库记录，并检查数据完整性<br>2 、DDL（Data Definition Language):数据定义语句，用于库和表的创建、修改、删除。<br>3 、DCL（Data Control Language):数据控制语句，用于定义用户的访问权限和安全级别。</p>
-<h4 id="七、SQL语言分类"><a href="#七、SQL语言分类" class="headerlink" title="七、SQL语言分类"></a>七、SQL语言分类</h4><h5 id="DML"><a href="#DML" class="headerlink" title="DML"></a>DML</h5><p> 1.DML用于查询与修改数据记录，包括如下SQL语句：<br> 2.INSERT：添加数据到数据库中<br> 3.UPDATE：修改数据库中的数据<br> 4.DELETE：删除数据库中的数据<br> 5.SELECT：选择（查询）数据<br> 6.SELECT是SQL语言的基础,最为重要。</p>
-<h5 id="DDL"><a href="#DDL" class="headerlink" title="DDL"></a>DDL</h5><p> 用于定义数据库的结构，比如创建、修改或删除数据库对象，包括如下SQL语句：<br> CREATE TABLE：创建数据库表<br> ALTER TABLE：更改表结构、添加、删除、修改列长度<br> DROP TABLE：删除表<br> CREATE INDEX：在表上建立索引<br> DROP INDEX：删除索引</p>
-<h5 id="DCL"><a href="#DCL" class="headerlink" title="DCL"></a>DCL</h5><p> DCL用来控制数据库的访问，包括如下SQL语句：<br> GRANT：授予访问权限<br> REVOKE：撤销访问权限<br> COMMIT：提交事务处理<br> ROLLBACK：事务处理回退<br> SAVEPOINT：设置保存点<br> LOCK：对数据库的特定部分进行锁定</p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>mysql_安装与使用</title>
+      <link href="/2021/08/31/mysql_%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+      <url>/2021/08/31/mysql_%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="MySql数据库产品的介绍"><a href="#MySql数据库产品的介绍" class="headerlink" title="MySql数据库产品的介绍"></a>MySql数据库产品的介绍</h1><h2 id="mysql程序结构图"><a href="#mysql程序结构图" class="headerlink" title="mysql程序结构图"></a>mysql程序结构图</h2><p><img src="https://gitee.com/study66/other-img/raw/master/blog-text/QQ%E6%88%AA%E5%9B%BE20210831154458.png"></p><h2 id="一、MySQL产品的特点"><a href="#一、MySQL产品的特点" class="headerlink" title="一、MySQL产品的特点"></a>一、MySQL产品的特点</h2><p>1.MySQL数据库隶属于MySQL AB公司，总部位于瑞典，后被oracle收购。<br>2.优点：<br>成本低：开放源代码，一般可以免费试用<br>性能高：执行很快<br>简单：很容易安装和使用</p><h2 id="二-、MySql数据库的安装"><a href="#二-、MySql数据库的安装" class="headerlink" title="二 、MySql数据库的安装"></a>二 、MySql数据库的安装</h2><h3 id="DBMS分为两类："><a href="#DBMS分为两类：" class="headerlink" title="DBMS分为两类："></a>DBMS分为两类：</h3><p>1.基于共享文件系统的DBMS （Access）<br>2.基于客户机——服务器的DBMS<br>（MySQL、Oracle、SqlServer）</p><h2 id="MySQL的版本"><a href="#MySQL的版本" class="headerlink" title="MySQL的版本"></a>MySQL的版本</h2><p>1.社区版（免费）<br>2.企业版（收费）<br>3.Windows平台下下载：<a href="http://dev.mysql.com/downloads/mysql">http://dev.mysql.com/downloads/mysql</a></p><h2 id="启动和停止MySQL服务"><a href="#启动和停止MySQL服务" class="headerlink" title="启动和停止MySQL服务"></a>启动和停止MySQL服务</h2><p>1.方式一：通过计算机管理方式右击计算机—管理—服务—启动或停止MySQL服务<br>2.方式二：通过命令行方式<br>启动：net start mysql服务名<br>停止：net stop mysql服务名</p><h2 id="MySQL服务端的登录和退出"><a href="#MySQL服务端的登录和退出" class="headerlink" title="MySQL服务端的登录和退出"></a>MySQL服务端的登录和退出</h2><p>登录<br>mysql –h 主机名 –u用户名 –p密码<br>退出<br>exit</p><h2 id="MySql数据库的使用"><a href="#MySql数据库的使用" class="headerlink" title="MySql数据库的使用"></a>MySql数据库的使用</h2><h3 id="MySQL语法规范"><a href="#MySQL语法规范" class="headerlink" title="MySQL语法规范"></a>MySQL语法规范</h3><p>不区分大小写<br>每句话用;或g结尾<br>各子句一般分行写<br>关键字不能缩写也不能分行<br>用缩进提高语句的可读性</p><ol><li>进入mysql, 在命令行中输入: mysql <strong>–</strong> uroot <strong>–</strong> p#### (其中：####表示密码）</li><li>查看mysql中有哪些个数据库: show databases; </li><li>使用一个数据库: use 数据库名称; </li><li>新建一个数据库: create database 数据库名 </li><li>查看指定的数据库中有哪些数据表: show tables; </li><li>建表: table 表名(字段 类型 逗号)</li><li>查看表的结构：desc表名</li><li>删除表: drop table 表名</li><li>查看表中的所有记录: select * from 表名;</li><li>向表中插入记录：insert into 表名(列名列表) values(列对应的值的列表);</li><li>注意：插入varchar 或date 型的数据要用单引号引起来</li><li>修改记录: update 表名set 列1 = 列 1 的值, 列2 = 列 2 的值 <strong>where …</strong></li><li>删除记录: delete from 表名 <strong>where ….</strong></li><li>查询所有列: select * from 表名;</li><li>查询特定的列: select 列名1,列名 <strong>2, … from</strong> 表名</li><li>对查询的数据进行过滤：使用where 子句<h3 id="4-运算符："><a href="#4-运算符：" class="headerlink" title="4. 运算符："></a>4. 运算符：</h3>% 匹配任意多字符；<br>_只匹配一个字符</li></ol>]]></content>
+      
+      
       <categories>
-        <category>技术</category>
+          
+          <category> 技术 </category>
+          
       </categories>
-      <tags>
-        <tag>mysql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>mysql_安装与使用</title>
-    <url>/2021/08/31/mysql_%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<h1 id="MySql数据库产品的介绍"><a href="#MySql数据库产品的介绍" class="headerlink" title="MySql数据库产品的介绍"></a>MySql数据库产品的介绍</h1><h2 id="一、MySQL产品的特点"><a href="#一、MySQL产品的特点" class="headerlink" title="一、MySQL产品的特点"></a>一、MySQL产品的特点</h2><p>1.MySQL数据库隶属于MySQL AB公司，总部位于瑞典，后被oracle收购。<br>2.优点：<br>成本低：开放源代码，一般可以免费试用<br>性能高：执行很快<br>简单：很容易安装和使用</p>
-<h2 id="二-、MySql数据库的安装"><a href="#二-、MySql数据库的安装" class="headerlink" title="二 、MySql数据库的安装"></a>二 、MySql数据库的安装</h2><h3 id="DBMS分为两类："><a href="#DBMS分为两类：" class="headerlink" title="DBMS分为两类："></a>DBMS分为两类：</h3><p>1.基于共享文件系统的DBMS （Access）<br>2.基于客户机——服务器的DBMS<br>（MySQL、Oracle、SqlServer）</p>
-<h2 id="MySQL的版本"><a href="#MySQL的版本" class="headerlink" title="MySQL的版本"></a>MySQL的版本</h2><p>1.社区版（免费）<br>2.企业版（收费）<br>3.Windows平台下下载：<a href="http://dev.mysql.com/downloads/mysql">http://dev.mysql.com/downloads/mysql</a></p>
-<h2 id="启动和停止MySQL服务"><a href="#启动和停止MySQL服务" class="headerlink" title="启动和停止MySQL服务"></a>启动和停止MySQL服务</h2><p>1.方式一：通过计算机管理方式右击计算机—管理—服务—启动或停止MySQL服务<br>2.方式二：通过命令行方式<br>启动：net start mysql服务名<br>停止：net stop mysql服务名</p>
-<h2 id="MySQL服务端的登录和退出"><a href="#MySQL服务端的登录和退出" class="headerlink" title="MySQL服务端的登录和退出"></a>MySQL服务端的登录和退出</h2><p>登录<br>mysql –h 主机名 –u用户名 –p密码<br>退出<br>exit</p>
-<h2 id="MySql数据库的使用"><a href="#MySql数据库的使用" class="headerlink" title="MySql数据库的使用"></a>MySql数据库的使用</h2><h3 id="MySQL语法规范"><a href="#MySQL语法规范" class="headerlink" title="MySQL语法规范"></a>MySQL语法规范</h3><p>不区分大小写<br>每句话用;或g结尾<br>各子句一般分行写<br>关键字不能缩写也不能分行<br>用缩进提高语句的可读性</p>
-<ol>
-<li>进入mysql, 在命令行中输入: mysql <strong>–</strong> uroot <strong>–</strong> p#### (其中：####表示密码）</li>
-<li>查看mysql中有哪些个数据库: show databases; </li>
-<li>使用一个数据库: use 数据库名称; </li>
-<li>新建一个数据库: create database 数据库名 </li>
-<li>查看指定的数据库中有哪些数据表: show tables; </li>
-<li>建表: table 表名(字段 类型 逗号)</li>
-<li>查看表的结构：desc表名</li>
-<li>删除表: drop table 表名</li>
-<li>查看表中的所有记录: select * from 表名;</li>
-<li>向表中插入记录：insert into 表名(列名列表) values(列对应的值的列表);</li>
-<li>注意：插入varchar 或date 型的数据要用单引号引起来</li>
-<li>修改记录: update 表名set 列1 = 列 1 的值, 列2 = 列 2 的值 <strong>where …</strong></li>
-<li>删除记录: delete from 表名 <strong>where ….</strong></li>
-<li>查询所有列: select * from 表名;</li>
-<li>查询特定的列: select 列名1,列名 <strong>2, … from</strong> 表名</li>
-<li>对查询的数据进行过滤：使用where 子句<h3 id="4-运算符："><a href="#4-运算符：" class="headerlink" title="4. 运算符："></a>4. 运算符：</h3>% 匹配任意多字符；<br>_只匹配一个字符</li>
-</ol>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>mysql_概述</title>
+      <link href="/2021/08/30/mysql_%E6%A6%82%E8%BF%B0/"/>
+      <url>/2021/08/30/mysql_%E6%A6%82%E8%BF%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="mysql-概述"><a href="#mysql-概述" class="headerlink" title="mysql_概述"></a>mysql_概述</h1><h4 id="一、数据库的好处"><a href="#一、数据库的好处" class="headerlink" title="一、数据库的好处"></a>一、数据库的好处</h4><p>1.保存数据 的容器：<br>2.数组<br>3.集合<br>4文件<br>5.实现数据持久化使用完整的管理系统统一管理，易于查询</p><h4 id="二、数据库的概念"><a href="#二、数据库的概念" class="headerlink" title="二、数据库的概念"></a>二、数据库的概念</h4><p>1.DB:数据库（database）：存储数据的“仓库”。它保存了一系列有组织的数据。<br>2.DBMS:数据库管理系统（Database Management System）。数据库是通过DBMS创建和操作的容器<br>3.SQL:结构化查询语言（Structure Query Language）：专门用来与数据库通信的语言。</p><h4 id="三、数据库管理系统"><a href="#三、数据库管理系统" class="headerlink" title="三、数据库管理系统"></a>三、数据库管理系统</h4><p>常见的数据库管理系统：MySQL、Oracle、DB2、SqlServer等</p><h4 id="四、-SQL的优点："><a href="#四、-SQL的优点：" class="headerlink" title="四、  SQL的优点："></a>四、  SQL的优点：</h4><p> 1 、不是某个特定数据库供应商专有的语言，几乎所有DBMS都支持SQL<br> 2 、简单易学<br> 3 、虽然简单，但实际上是一种强有力的语言，灵活使 用其语言元素，可以进行非常复杂和高级的数据库操作。</p><h4 id="五、SQL语言概述"><a href="#五、SQL语言概述" class="headerlink" title="五、SQL语言概述"></a>五、SQL语言概述</h4><p> 1 、将数据放到表中，表再放到库中<br> 2 、一个数据库中可以有多个表，每个表都有一个的名字，用来 标识自己。表名具有唯一性。<br> 3 、表具有一些特性，这些特性定义了数据在表中如何存储，类 似java中 “类”的设计。<br> 4 、表由列组成，我们也称为字段。所有表都是由一个或多个列组成的，每一列类似java 中的”属   性”<br> 5 、表中的数据是按行存储的，每一行类似于java中的“对象”。</p><h4 id="六、数据库的特点"><a href="#六、数据库的特点" class="headerlink" title="六、数据库的特点"></a>六、数据库的特点</h4><p>1 、DML（Data Manipulation Language):数据操纵语句，用于添加、删除、修改、查询数据库记录，并检查数据完整性<br>2 、DDL（Data Definition Language):数据定义语句，用于库和表的创建、修改、删除。<br>3 、DCL（Data Control Language):数据控制语句，用于定义用户的访问权限和安全级别。</p><h4 id="七、SQL语言分类"><a href="#七、SQL语言分类" class="headerlink" title="七、SQL语言分类"></a>七、SQL语言分类</h4><h5 id="DML"><a href="#DML" class="headerlink" title="DML"></a>DML</h5><p> 1.DML用于查询与修改数据记录，包括如下SQL语句：<br> 2.INSERT：添加数据到数据库中<br> 3.UPDATE：修改数据库中的数据<br> 4.DELETE：删除数据库中的数据<br> 5.SELECT：选择（查询）数据<br> 6.SELECT是SQL语言的基础,最为重要。</p><h5 id="DDL"><a href="#DDL" class="headerlink" title="DDL"></a>DDL</h5><p> 用于定义数据库的结构，比如创建、修改或删除数据库对象，包括如下SQL语句：<br> CREATE TABLE：创建数据库表<br> ALTER TABLE：更改表结构、添加、删除、修改列长度<br> DROP TABLE：删除表<br> CREATE INDEX：在表上建立索引<br> DROP INDEX：删除索引</p><h5 id="DCL"><a href="#DCL" class="headerlink" title="DCL"></a>DCL</h5><p> DCL用来控制数据库的访问，包括如下SQL语句：<br> GRANT：授予访问权限<br> REVOKE：撤销访问权限<br> COMMIT：提交事务处理<br> ROLLBACK：事务处理回退<br> SAVEPOINT：设置保存点<br> LOCK：对数据库的特定部分进行锁定</p>]]></content>
+      
+      
       <categories>
-        <category>技术</category>
+          
+          <category> 技术 </category>
+          
       </categories>
-      <tags>
-        <tag>mysql</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
