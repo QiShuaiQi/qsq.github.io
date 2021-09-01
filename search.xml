@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>mysql_概述</title>
-    <url>/2021/08/30/mysql_%E6%A6%82%E8%BF%B0/</url>
-    <content><![CDATA[<h1 id="mysql-概述"><a href="#mysql-概述" class="headerlink" title="mysql_概述"></a>mysql_概述</h1><h4 id="一、数据库的好处"><a href="#一、数据库的好处" class="headerlink" title="一、数据库的好处"></a>一、数据库的好处</h4><p>1.保存数据 的容器：<br>2.数组<br>3.集合<br>4文件<br>5.实现数据持久化使用完整的管理系统统一管理，易于查询</p>
-<h4 id="二、数据库的概念"><a href="#二、数据库的概念" class="headerlink" title="二、数据库的概念"></a>二、数据库的概念</h4><p>1.DB:数据库（database）：存储数据的“仓库”。它保存了一系列有组织的数据。<br>2.DBMS:数据库管理系统（Database Management System）。数据库是通过DBMS创建和操作的容器<br>3.SQL:结构化查询语言（Structure Query Language）：专门用来与数据库通信的语言。</p>
-<h4 id="三、数据库管理系统"><a href="#三、数据库管理系统" class="headerlink" title="三、数据库管理系统"></a>三、数据库管理系统</h4><p>常见的数据库管理系统：MySQL、Oracle、DB2、SqlServer等</p>
-<h4 id="四、-SQL的优点："><a href="#四、-SQL的优点：" class="headerlink" title="四、  SQL的优点："></a>四、  SQL的优点：</h4><p> 1 、不是某个特定数据库供应商专有的语言，几乎所有DBMS都支持SQL<br> 2 、简单易学<br> 3 、虽然简单，但实际上是一种强有力的语言，灵活使 用其语言元素，可以进行非常复杂和高级的数据库操作。</p>
-<h4 id="五、SQL语言概述"><a href="#五、SQL语言概述" class="headerlink" title="五、SQL语言概述"></a>五、SQL语言概述</h4><p> 1 、将数据放到表中，表再放到库中<br> 2 、一个数据库中可以有多个表，每个表都有一个的名字，用来 标识自己。表名具有唯一性。<br> 3 、表具有一些特性，这些特性定义了数据在表中如何存储，类 似java中 “类”的设计。<br> 4 、表由列组成，我们也称为字段。所有表都是由一个或多个列组成的，每一列类似java 中的”属   性”<br> 5 、表中的数据是按行存储的，每一行类似于java中的“对象”。</p>
-<h4 id="六、数据库的特点"><a href="#六、数据库的特点" class="headerlink" title="六、数据库的特点"></a>六、数据库的特点</h4><p>1 、DML（Data Manipulation Language):数据操纵语句，用于添加、删除、修改、查询数据库记录，并检查数据完整性<br>2 、DDL（Data Definition Language):数据定义语句，用于库和表的创建、修改、删除。<br>3 、DCL（Data Control Language):数据控制语句，用于定义用户的访问权限和安全级别。</p>
-<h4 id="七、SQL语言分类"><a href="#七、SQL语言分类" class="headerlink" title="七、SQL语言分类"></a>七、SQL语言分类</h4><h5 id="DML"><a href="#DML" class="headerlink" title="DML"></a>DML</h5><p> 1.DML用于查询与修改数据记录，包括如下SQL语句：<br> 2.INSERT：添加数据到数据库中<br> 3.UPDATE：修改数据库中的数据<br> 4.DELETE：删除数据库中的数据<br> 5.SELECT：选择（查询）数据<br> 6.SELECT是SQL语言的基础,最为重要。</p>
-<h5 id="DDL"><a href="#DDL" class="headerlink" title="DDL"></a>DDL</h5><p> 用于定义数据库的结构，比如创建、修改或删除数据库对象，包括如下SQL语句：<br> CREATE TABLE：创建数据库表<br> ALTER TABLE：更改表结构、添加、删除、修改列长度<br> DROP TABLE：删除表<br> CREATE INDEX：在表上建立索引<br> DROP INDEX：删除索引</p>
-<h5 id="DCL"><a href="#DCL" class="headerlink" title="DCL"></a>DCL</h5><p> DCL用来控制数据库的访问，包括如下SQL语句：<br> GRANT：授予访问权限<br> REVOKE：撤销访问权限<br> COMMIT：提交事务处理<br> ROLLBACK：事务处理回退<br> SAVEPOINT：设置保存点<br> LOCK：对数据库的特定部分进行锁定</p>
+    <title>Typora使用方法</title>
+    <url>/2021/08/31/Typora%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>ctrl+B加粗</p>
+<p>查找: Ctrl+F ctrl+H 搜索并替换</p>
+<p>插入链接: ctrl+k</p>
+<p>插入代码: ctrl+Shift+k</p>
+<p>插入图片： Ctrl + Shift + I</p>
+<p>标题:Ctrl+1…</p>
+<p>创建表格 : Ctrl+T</p>
+<p>“&gt; +  空格 + 引用文字</p>
+<p>Ctrl+u</p>
+<p>无序列表: 星光号+空格</p>
+<p>代码块 :反引号</p>
+<p>多行代码: 三个反引号+回车</p>
+<p>分割线: 三个星号或者— +回车</p>
+<h3 id="文章目录"><a href="#文章目录" class="headerlink" title="文章目录"></a>文章目录</h3><p>[ TOC ]+回车</p>
 ]]></content>
       <categories>
         <category>技术</category>
       </categories>
       <tags>
-        <tag>mysql</tag>
+        <tag>Typora</tag>
       </tags>
   </entry>
   <entry>
@@ -54,6 +59,99 @@
       </categories>
       <tags>
         <tag>mysql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语四级_第一单元</title>
+    <url>/2021/08/31/%E8%8B%B1%E8%AF%AD%E5%9B%9B%E7%BA%A7_%E7%AC%AC%E4%B8%80%E5%8D%95%E5%85%83/</url>
+    <content><![CDATA[<ul>
+<li>sincere adj.  诚挚的 真诚的</li>
+<li>mood n. 心情</li>
+<li>static adj. 静态的</li>
+<li> hobby n. 业余爱好</li>
+<li>considering perp.考虑到</li>
+<li>lad n. 男孩</li>
+<li>equip vt. 装备</li>
+<li>frown v/n 皱眉</li>
+<li>software n 软件</li>
+<li>fasten v 扣住</li>
+<li>stir v.搅动</li>
+<li>flexible adj.易弯曲的</li>
+<li>solution n.解决</li>
+<li>panel n.仪盘表</li>
+<li>supreme adj .最高、大 、重要的</li>
+<li>descirebe vt .描写</li>
+<li>limb n. 肢 臂</li>
+<li>circumstance 境况 、under no circumstance 无论如何 、绝不   ,in/under the circumstanc 在这中情况下</li>
+<li>mess  v.弄乱 n.凌乱</li>
+<li>core n.核心 要点</li>
+<li>minus n .负数 prep 减去</li>
+<li>statistic n.统计学</li>
+<li>pregnant adj.怀孕的</li>
+<li>sector n. 部分</li>
+<li>birde n. 新娘</li>
+<li>statue n.雕像</li>
+<li>cycle n.自行车 v.骑自行车</li>
+<li>skillful adj.灵活的</li>
+<li>overheand adv. 在头顶上</li>
+<li>clash vi.发送冲突</li>
+<li>grant v.授予</li>
+<li>bond n.联结 、合同</li>
+<li>staff n.全体员工 vt.为..配备人员</li>
+<li>intermediate adj. 中间的</li>
+<li>guitar n.吉他</li>
+<li>comprehensive adj.广泛的</li>
+<li>presence n.出席 、存在</li>
+<li>appliance n.器具</li>
+<li>emergency n.紧急情况</li>
+<li>solve vt.解释 、解答</li>
+<li>label n .标签</li>
+<li>slim adj 减轻体重、苗条</li>
+<li>ambassador n.大使</li>
+<li>status n.身份</li>
+<li>cushion n.垫子</li>
+<li>steady adj .稳定的</li>
+<li>include vt.包含、包括</li>
+<li>prime adj.首要的</li>
+<li>derive v.起源</li>
+<li>sponsor n.发起者</li>
+<li>proportion n.比例</li>
+<li>mental adj.精神的</li>
+<li>punch vt.猛击</li>
+<li>result n.结果 result in 导致 ;result from 起源于 ；as a result 作为结果 ; as a result of 由于</li>
+<li>client n.顾客</li>
+<li>steamer  n.汽船</li>
+<li>option n. 选择</li>
+<li>dormitory n.宿舍</li>
+<li>attitude n.态度</li>
+<li>steep adj.陡峭的</li>
+<li>agency n.代理</li>
+<li>steer v.掌舵 steer clear of 绕开 、避开</li>
+<li>jog n/v. 慢跑</li>
+<li>scandal n.丑闻</li>
+<li>knit vt.编制</li>
+<li>abolish vt .废除</li>
+<li>baby boom n.生育高峰</li>
+<li>illusion n.幻觉</li>
+<li>fable n.语言</li>
+<li>cater vi.迎合</li>
+<li>obese adj.肥胖的</li>
+<li>paddy n.稻田</li>
+<li>deadly adj.致死的</li>
+<li>economics n.经济学</li>
+<li>madden vt .使疯狂</li>
+<li>narrate v.叙述</li>
+<li>handbook n.手册</li>
+<li>gadget n.小器具</li>
+<li>aerial adj.航空的</li>
+<li>applaud v.称赞</li>
+</ul>
+]]></content>
+      <categories>
+        <category>文章</category>
+      </categories>
+      <tags>
+        <tag>英语四级</tag>
       </tags>
   </entry>
   <entry>
@@ -216,121 +314,23 @@
       </tags>
   </entry>
   <entry>
-    <title>Typora使用方法</title>
-    <url>/2021/08/31/Typora%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p>ctrl+B加粗</p>
-<p>查找: Ctrl+F ctrl+H 搜索并替换</p>
-<p>插入链接: ctrl+k</p>
-<p>插入代码: ctrl+Shift+k</p>
-<p>插入图片： Ctrl + Shift + I</p>
-<p>标题:Ctrl+1…</p>
-<p>创建表格 : Ctrl+T</p>
-<p>“&gt; +  空格 + 引用文字</p>
-<p>Ctrl+u</p>
-<p>无序列表: 星光号+空格</p>
-<p>代码块 :反引号</p>
-<p>多行代码: 三个反引号+回车</p>
-<p>分割线: 三个星号或者— +回车</p>
-<h3 id="文章目录"><a href="#文章目录" class="headerlink" title="文章目录"></a>文章目录</h3><p>[ TOC ]+回车</p>
+    <title>mysql_概述</title>
+    <url>/2021/08/30/mysql_%E6%A6%82%E8%BF%B0/</url>
+    <content><![CDATA[<h1 id="mysql-概述"><a href="#mysql-概述" class="headerlink" title="mysql_概述"></a>mysql_概述</h1><h4 id="一、数据库的好处"><a href="#一、数据库的好处" class="headerlink" title="一、数据库的好处"></a>一、数据库的好处</h4><p>1.保存数据 的容器：<br>2.数组<br>3.集合<br>4文件<br>5.实现数据持久化使用完整的管理系统统一管理，易于查询</p>
+<h4 id="二、数据库的概念"><a href="#二、数据库的概念" class="headerlink" title="二、数据库的概念"></a>二、数据库的概念</h4><p>1.DB:数据库（database）：存储数据的“仓库”。它保存了一系列有组织的数据。<br>2.DBMS:数据库管理系统（Database Management System）。数据库是通过DBMS创建和操作的容器<br>3.SQL:结构化查询语言（Structure Query Language）：专门用来与数据库通信的语言。</p>
+<h4 id="三、数据库管理系统"><a href="#三、数据库管理系统" class="headerlink" title="三、数据库管理系统"></a>三、数据库管理系统</h4><p>常见的数据库管理系统：MySQL、Oracle、DB2、SqlServer等</p>
+<h4 id="四、-SQL的优点："><a href="#四、-SQL的优点：" class="headerlink" title="四、  SQL的优点："></a>四、  SQL的优点：</h4><p> 1 、不是某个特定数据库供应商专有的语言，几乎所有DBMS都支持SQL<br> 2 、简单易学<br> 3 、虽然简单，但实际上是一种强有力的语言，灵活使 用其语言元素，可以进行非常复杂和高级的数据库操作。</p>
+<h4 id="五、SQL语言概述"><a href="#五、SQL语言概述" class="headerlink" title="五、SQL语言概述"></a>五、SQL语言概述</h4><p> 1 、将数据放到表中，表再放到库中<br> 2 、一个数据库中可以有多个表，每个表都有一个的名字，用来 标识自己。表名具有唯一性。<br> 3 、表具有一些特性，这些特性定义了数据在表中如何存储，类 似java中 “类”的设计。<br> 4 、表由列组成，我们也称为字段。所有表都是由一个或多个列组成的，每一列类似java 中的”属   性”<br> 5 、表中的数据是按行存储的，每一行类似于java中的“对象”。</p>
+<h4 id="六、数据库的特点"><a href="#六、数据库的特点" class="headerlink" title="六、数据库的特点"></a>六、数据库的特点</h4><p>1 、DML（Data Manipulation Language):数据操纵语句，用于添加、删除、修改、查询数据库记录，并检查数据完整性<br>2 、DDL（Data Definition Language):数据定义语句，用于库和表的创建、修改、删除。<br>3 、DCL（Data Control Language):数据控制语句，用于定义用户的访问权限和安全级别。</p>
+<h4 id="七、SQL语言分类"><a href="#七、SQL语言分类" class="headerlink" title="七、SQL语言分类"></a>七、SQL语言分类</h4><h5 id="DML"><a href="#DML" class="headerlink" title="DML"></a>DML</h5><p> 1.DML用于查询与修改数据记录，包括如下SQL语句：<br> 2.INSERT：添加数据到数据库中<br> 3.UPDATE：修改数据库中的数据<br> 4.DELETE：删除数据库中的数据<br> 5.SELECT：选择（查询）数据<br> 6.SELECT是SQL语言的基础,最为重要。</p>
+<h5 id="DDL"><a href="#DDL" class="headerlink" title="DDL"></a>DDL</h5><p> 用于定义数据库的结构，比如创建、修改或删除数据库对象，包括如下SQL语句：<br> CREATE TABLE：创建数据库表<br> ALTER TABLE：更改表结构、添加、删除、修改列长度<br> DROP TABLE：删除表<br> CREATE INDEX：在表上建立索引<br> DROP INDEX：删除索引</p>
+<h5 id="DCL"><a href="#DCL" class="headerlink" title="DCL"></a>DCL</h5><p> DCL用来控制数据库的访问，包括如下SQL语句：<br> GRANT：授予访问权限<br> REVOKE：撤销访问权限<br> COMMIT：提交事务处理<br> ROLLBACK：事务处理回退<br> SAVEPOINT：设置保存点<br> LOCK：对数据库的特定部分进行锁定</p>
 ]]></content>
       <categories>
         <category>技术</category>
       </categories>
       <tags>
-        <tag>Typora</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语四级_第一单元</title>
-    <url>/2021/08/31/%E8%8B%B1%E8%AF%AD%E5%9B%9B%E7%BA%A7_%E7%AC%AC%E4%B8%80%E5%8D%95%E5%85%83/</url>
-    <content><![CDATA[<ul>
-<li>sincere adj.  诚挚的 真诚的</li>
-<li>mood n. 心情</li>
-<li>static adj. 静态的</li>
-<li> hobby n. 业余爱好</li>
-<li>considering perp.考虑到</li>
-<li>lad n. 男孩</li>
-<li>equip vt. 装备</li>
-<li>frown v/n 皱眉</li>
-<li>software n 软件</li>
-<li>fasten v 扣住</li>
-<li>stir v.搅动</li>
-<li>flexible adj.易弯曲的</li>
-<li>solution n.解决</li>
-<li>panel n.仪盘表</li>
-<li>supreme adj .最高、大 、重要的</li>
-<li>descirebe vt .描写</li>
-<li>limb n. 肢 臂</li>
-<li>circumstance 境况 、under no circumstance 无论如何 、绝不   ,in/under the circumstanc 在这中情况下</li>
-<li>mess  v.弄乱 n.凌乱</li>
-<li>core n.核心 要点</li>
-<li>minus n .负数 prep 减去</li>
-<li>statistic n.统计学</li>
-<li>pregnant adj.怀孕的</li>
-<li>sector n. 部分</li>
-<li>birde n. 新娘</li>
-<li>statue n.雕像</li>
-<li>cycle n.自行车 v.骑自行车</li>
-<li>skillful adj.灵活的</li>
-<li>overheand adv. 在头顶上</li>
-<li>clash vi.发送冲突</li>
-<li>grant v.授予</li>
-<li>bond n.联结 、合同</li>
-<li>staff n.全体员工 vt.为..配备人员</li>
-<li>intermediate adj. 中间的</li>
-<li>guitar n.吉他</li>
-<li>comprehensive adj.广泛的</li>
-<li>presence n.出席 、存在</li>
-<li>appliance n.器具</li>
-<li>emergency n.紧急情况</li>
-<li>solve vt.解释 、解答</li>
-<li>label n .标签</li>
-<li>slim adj 减轻体重、苗条</li>
-<li>ambassador n.大使</li>
-<li>status n.身份</li>
-<li>cushion n.垫子</li>
-<li>steady adj .稳定的</li>
-<li>include vt.包含、包括</li>
-<li>prime adj.首要的</li>
-<li>derive v.起源</li>
-<li>sponsor n.发起者</li>
-<li>proportion n.比例</li>
-<li>mental adj.精神的</li>
-<li>punch vt.猛击</li>
-<li>result n.结果 result in 导致 ;result from 起源于 ；as a result 作为结果 ; as a result of 由于</li>
-<li>client n.顾客</li>
-<li>steamer  n.汽船</li>
-<li>option n. 选择</li>
-<li>dormitory n.宿舍</li>
-<li>attitude n.态度</li>
-<li>steep adj.陡峭的</li>
-<li>agency n.代理</li>
-<li>steer v.掌舵 steer clear of 绕开 、避开</li>
-<li>jog n/v. 慢跑</li>
-<li>scandal n.丑闻</li>
-<li>knit vt.编制</li>
-<li>abolish vt .废除</li>
-<li>baby boom n.生育高峰</li>
-<li>illusion n.幻觉</li>
-<li>fable n.语言</li>
-<li>cater vi.迎合</li>
-<li>obese adj.肥胖的</li>
-<li>paddy n.稻田</li>
-<li>deadly adj.致死的</li>
-<li>economics n.经济学</li>
-<li>madden vt .使疯狂</li>
-<li>narrate v.叙述</li>
-<li>handbook n.手册</li>
-<li>gadget n.小器具</li>
-<li>aerial adj.航空的</li>
-<li>applaud v.称赞</li>
-</ul>
-]]></content>
-      <categories>
-        <category>文章</category>
-      </categories>
-      <tags>
-        <tag>英语四级</tag>
+        <tag>mysql</tag>
       </tags>
   </entry>
   <entry>
@@ -438,8 +438,7 @@
 </li>
 <li><p>chest   n.胸腔</p>
 </li>
-<li><p>rebel  vi.反对</p>
-</li>
+<li></li>
 <li><p>satisfactory  adj.令人满意的</p>
 </li>
 <li><p>airline   n. 航线</p>
@@ -450,8 +449,7 @@
 </li>
 <li><p>render   vt .致使 、给予</p>
 </li>
-<li><p>object   v.反对</p>
-</li>
+<li></li>
 <li><p>gardener   n.园丁</p>
 </li>
 <li><p>shrink   v.起皱</p>
@@ -490,8 +488,7 @@
 </li>
 <li><p>lightning   n.闪电</p>
 </li>
-<li><p>sting  n/v 刺痛</p>
-</li>
+<li></li>
 <li><p>bound  vt. 跳跃 be bound to 注定 ，be bound up in  热衷于  ，be bound up with 与…有密切关系</p>
 </li>
 <li><p>rouse   vt .唤起</p>
@@ -512,8 +509,7 @@
 </li>
 <li><p>biology   n.生物学</p>
 </li>
-<li><p>drunk  adj.醉的</p>
-</li>
+<li></li>
 <li><p>barrier  n.障碍</p>
 </li>
 <li><p>stock  n.贮存    in stock  贮有 ; out of stock 没有库存;  take  stock of 对…估计</p>
@@ -564,8 +560,7 @@
 </li>
 <li><p>masterpiece n.杰作</p>
 </li>
-<li><p>nude   adj .裸体的 n.裸体画</p>
-</li>
+<li></li>
 <li><p>handicap  n.缺陷</p>
 </li>
 <li><p>elite   n.社会精英</p>
@@ -582,8 +577,7 @@
 </li>
 <li><p>immune  adj.免疫的</p>
 </li>
-<li><p>logo  n.商标</p>
-</li>
+<li></li>
 <li><p>heartfelt  adj .真诚的</p>
 </li>
 <li><p>ballet   n.芭蕾舞</p>
